@@ -12,17 +12,17 @@ var search = regex.exec(document.body.innerText);
 // Functions
 function filterMild() {
 	console.log("Filtering Bernie with Mild filter...");
-	return $(":contains('Bernie'), :contains('TRUMP'), :contains('bernie')").filter("h1,h2,h3,h4,h5,p,span,li");
+	return $(":contains('Bernie'), :contains('BERNIE'), :contains('bernie')").filter("h1,h2,h3,h4,h5,p,span,li");
 }
 
 function filterDefault () {
 	console.log("Filtering Bernie with Default filter...");
-	return $(":contains('Bernie'), :contains('TRUMP'), :contains('bernie')").filter(":only-child").closest('div');
+	return $(":contains('Bernie'), :contains('BERNIE'), :contains('bernie')").filter(":only-child").closest('div');
 }
 
 function filterVindictive() {
 	console.log("Filtering Bernie with Vindictive filter...");
-	return $(":contains('Bernie'), :contains('TRUMP'), :contains('bernie')").filter(":not('body'):not('html')");
+	return $(":contains('Bernie'), :contains('BERNIE'), :contains('bernie')").filter(":not('body'):not('html')");
 }
 
 function getElements(filter) {
