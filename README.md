@@ -23,7 +23,7 @@ Features
 Installation (for Users)
 --------------------------
 
-1. [Download the package](Bernie-Filter.zip)
+1. [Download the package](https://github.com/wboykinm/Bernie-Filter/blob/master/Bernie-Filter.zip?raw=true)
 2. Extract it somewhere in your file system (remember where)
 3. Open the Google Chrome settings and go to "More tools" --> "Extensions"
 4. Check the "Developer mode" box
