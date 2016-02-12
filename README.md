@@ -9,6 +9,8 @@ This is a fork of Rob Spectre's excellent [Trump Filter](https://github.com/RobS
 
 [I am a Sanderista](https://medium.com/@vtcraghead/primary-2016-manifesto-b66690e6640a#.4ndm5jrcn). I make no apologies for that. But some of my friends in other camps have grown tired of the occasionally-overenthusiastic online activity of Bernie's supporters. They'd like a break from that, and I offer them this modified extension in exchange for their vote in the general when Bernie is the Democratic nominee :)
 
+_Note: for some reason Bernie's homepage is impervious to filtering this way. Maybe avoid that one unless you've caved and want to donate._
+
 
 Features
 --------------------------
@@ -21,7 +23,13 @@ Features
 Installation (for Users)
 --------------------------
 
-Chrome extension soon to be in the web store
+1. [Download the package](Bernie-Filter.zip)
+2. Extract it somewhere in your file system (remember where)
+3. Open the Google Chrome settings and go to "More tools" --> "Extensions"
+4. Check the "Developer mode" box
+5. Click "Load unpacked extension"
+6. Select the folder you extracted in step 2 above
+7. Enjoy a (largely) Bernie-free browsing experience.
 
 
 Installation (for Developers)
